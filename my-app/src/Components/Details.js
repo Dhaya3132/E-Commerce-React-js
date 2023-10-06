@@ -6,8 +6,10 @@ export default class Details extends Component {
     return (
       <div>
         <p className='Text1'>Explore products</p>
-        <div className="container">
-            
+        <div className="container1">
+            <div className="inner-container">
+
+            </div>
         </div>
       </div>
     )
