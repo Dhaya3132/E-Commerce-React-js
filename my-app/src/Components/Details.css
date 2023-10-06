@@ -1,0 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Italiana:regular);
+
+.Text1
+{
+    color: #111;
+    font-family: Italiana;
+    font-size: 50px;
+    font-weight: 400;
+}
