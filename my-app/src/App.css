@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Italiana:regular);
+.box1{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.box
+{
+    left: 66.7rem;
+    width: 853px;
+    height: 622px;
+    border-radius: 50px 0px 0px 0px;
+    background: #E4B231;
+    top: 200px;
+    position: absolute;     
+}
+
+.App-logo
+{   left: 32px;
+    bottom: 30px;
+    position: absolute;
+}
+
+.text1
+{
+    width: 414px;
+    height: 376px;
+    color: #14213D;
+    font-family: Italiana;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.content
+{
+    left: 180px;
+    top: 280px;
+    position: absolute;
+}
+
+.button
+{
+    left: 180px;
+    position: absolute;
+    width: 210px;
+    height: 70px;
+    border-radius: 15px;
+    background: #E5E5E5;
+    top:650px;
+}
+
+.Shop
+{ 
+    color: #111;
+    font-family: Italiana;
+    font-size: 30px;
+    font-weight: 400;
+    justify-content: center;
+    text-align: center;
+    top: 12px;
+    position: relative;
+}
+
+

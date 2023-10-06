@@ -1,0 +1,53 @@
+
+.contain
+{
+    width:1920px;
+    height: 790px;
+    background: rgba(229, 229, 229, 0.19);
+    top: 1000px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Collections
+{    
+    color: #111;
+    font-family: Italiana;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 70px;
+}
+
+.Card1
+{
+    width: 511px;
+    height: 500px;
+}
+
+.images
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content:center;
+    align-items: center;
+}
+
+.text5
+{
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    color: #111;
+    font-family: Italiana;
+    font-size: 40px;
+    font-weight: 400;
+    padding: 10px;
+}
