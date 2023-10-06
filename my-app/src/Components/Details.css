@@ -6,4 +6,19 @@
     font-family: Italiana;
     font-size: 50px;
     font-weight: 400;
+    top: 1900px;
+    left: 140px;
+    position: absolute;
+}
+
+.container
+{
+    width: 1394px;
+    height: 684px;
+    background: rgba(229, 229, 229, 0.19);
+    justify-content: center;
+    align-items: center;
+    top: 2000px;
+    position: relative;
+
 }

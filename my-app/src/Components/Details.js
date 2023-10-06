@@ -5,7 +5,10 @@ export default class Details extends Component {
   render() {
     return (
       <div>
-        <p className='Text1'>Explore products </p>
+        <p className='Text1'>Explore products</p>
+        <div className="container">
+            
+        </div>
       </div>
     )
   }

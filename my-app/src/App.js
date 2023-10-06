@@ -3,13 +3,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbarcom from './Components/Navbarcom';
 import logo from './12133-removebg-preview 1.png';
 import Products from './Components/Products';
-import Details from './Components/Details';
 
 function App() {
   return (
     <div className="App">
-      
+       
     <Navbarcom />
+
 
     <div className="box1">
       <div className="box">
@@ -27,8 +27,7 @@ function App() {
      </div>
 
     <Products />
-
-    <Details />
+    
 
 
     </div>
