@@ -14,7 +14,8 @@
 .inner-container
 {
     width: 1630px;
-    height: 684px;border-radius: 10px;
+    height: 550px;
+    border-radius: 10px;
     background: rgba(229, 229, 229, 0.50);
     justify-content: center;
     align-items: center;
@@ -27,4 +28,34 @@
     left: 150px;
     top: 2000px;
     position: absolute;
+}
+
+
+.button1
+{
+    padding: 40px;
+}
+.button2
+{
+    padding: 40px;
+}
+
+.button3
+{
+    padding: 40px;
+}
+
+.button4
+{
+    padding:40px;
+}
+
+.buttton-card
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
