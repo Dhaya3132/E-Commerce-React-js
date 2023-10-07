@@ -31,6 +31,9 @@ function App() {
     
     <div className="details-card">
       <Details />
+      <div className="card">
+        
+      </div>
     </div>
     
     </div>
