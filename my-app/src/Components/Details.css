@@ -69,3 +69,10 @@
 {
     height:480PX;
 }
+.dons
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    position: relative;
+}

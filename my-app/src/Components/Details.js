@@ -23,7 +23,13 @@ export default class Details extends Component {
                            <Card.Text>
                              Some quick example text to build on the card title and make up the bulk of the card's content.
                            </Card.Text>
-                            <Button variant="primary" className='but'>Buy now</Button>
+                           <div className="dons">
+                           <Button variant="primary" className='but'>Buy now</Button>
+                           <div className="div">
+                           <p> 2,000 Rs</p>
+                           </div>
+
+                           </div>
                      </Card.Body>
                  </Card>
               </div>
@@ -36,7 +42,12 @@ export default class Details extends Component {
                            <Card.Text>
                              Some quick example text to build on the card title and make up the bulk of the card's content.
                            </Card.Text>
-                            <Button variant="primary" className='but'>Buy now</Button>
+                           <div className="dons">
+                           <Button variant="primary" className='but'>Buy now</Button>
+                           <div className="div">
+                           <p> 2,000 Rs</p>
+                           </div>
+                           </div>
                      </Card.Body>
                  </Card>
               </div>
@@ -50,7 +61,12 @@ export default class Details extends Component {
                            <Card.Text>
                              Some quick example text to build on the card title and make up the bulk of the card's content.
                            </Card.Text>
-                            <Button variant="primary" className='but'>Buy now</Button>
+                           <div className="dons">
+                           <Button variant="primary" className='but'>Buy now</Button>
+                           <div className="div">
+                           <p> 2,000 Rs</p>
+                           </div>
+                           </div>
                      </Card.Body>
                  </Card>
               </div>
@@ -63,7 +79,12 @@ export default class Details extends Component {
                            <Card.Text>
                              Some quick example text to build on the card title and make up the bulk of the card's content.
                            </Card.Text>
-                            <Button variant="primary" className='but'>Buy now</Button>
+                           <div className="dons">
+                           <Button variant="primary" className='but'>Buy now</Button>
+                           <div className="div">
+                           <p> 2,000 Rs</p>
+                           </div>
+                           </div>
                      </Card.Body>
                  </Card>
               </div>
