@@ -4,6 +4,7 @@ import Navbarcom from './Components/Navbarcom';
 import logo from './12133-removebg-preview 1.png';
 import Products from './Components/Products';
 import Details from './Components/Details';
+
 function App() {
   return (
     <div className="App">
