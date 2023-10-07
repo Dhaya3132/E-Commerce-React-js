@@ -25,9 +25,7 @@ export default class Details extends Component {
                            </Card.Text>
                            <div className="dons">
                            <Button variant="primary" className='but'>Buy now</Button>
-                           <div className="div">
-                           <p> 2,000 Rs</p>
-                           </div>
+                           
 
                            </div>
                      </Card.Body>
@@ -44,9 +42,7 @@ export default class Details extends Component {
                            </Card.Text>
                            <div className="dons">
                            <Button variant="primary" className='but'>Buy now</Button>
-                           <div className="div">
-                           <p> 2,000 Rs</p>
-                           </div>
+                           
                            </div>
                      </Card.Body>
                  </Card>
@@ -63,9 +59,7 @@ export default class Details extends Component {
                            </Card.Text>
                            <div className="dons">
                            <Button variant="primary" className='but'>Buy now</Button>
-                           <div className="div">
-                           <p> 2,000 Rs</p>
-                           </div>
+                  
                            </div>
                      </Card.Body>
                  </Card>
@@ -81,9 +75,7 @@ export default class Details extends Component {
                            </Card.Text>
                            <div className="dons">
                            <Button variant="primary" className='but'>Buy now</Button>
-                           <div className="div">
-                           <p> 2,000 Rs</p>
-                           </div>
+                           
                            </div>
                      </Card.Body>
                  </Card>
