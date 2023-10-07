@@ -59,3 +59,13 @@
     align-items: center;
     position: relative;
 }
+
+.but{
+    left: 30px;
+    position: absolute;
+}
+
+.CARD1
+{
+    height:480PX;
+}
