@@ -7,10 +7,12 @@ import card2 from './Product2.png';
 import card3 from './Product3.png';
 import card4 from './9507.jpg';
 
+
+
 export default class Details extends Component {
   render() {
-    return (
-      <div>
+    return (   
+      <div>      
         <p className='Text1'>Explore products</p>
         <div className="container1">
             <div className="inner-container">
@@ -24,9 +26,8 @@ export default class Details extends Component {
                              Some quick example text to build on the card title and make up the bulk of the card's content.
                            </Card.Text>
                            <div className="dons">
-                           <Button variant="primary" className='but' >Buy now</Button>
-                           
-
+                            
+                           <Button variant="primary" className='but'>Buy now</Button>
                            </div>
                      </Card.Body>
                  </Card>
