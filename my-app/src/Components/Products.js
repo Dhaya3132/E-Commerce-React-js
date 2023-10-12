@@ -5,7 +5,7 @@ import logo3 from './Product3.png';
 
 import './Products.css';
 
-export default function Products()
+function Products()
 {
     return (
 
@@ -22,3 +22,6 @@ export default function Products()
     </div> 
     );
 }
+
+export default Products;
+

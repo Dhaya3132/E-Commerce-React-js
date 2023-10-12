@@ -1,8 +1,10 @@
 import React from "react";
 
-export default function Shop()
+function Shop()
 {
     return (
         <p>DHAYA</p>
-    )
+        )
 }
+
+export default Shop;

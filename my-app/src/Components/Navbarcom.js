@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import './Navbarcom.css';
 
 
-export default function Navbarcom ()
+function Navbarcom ()
 {
     return (
         <Navbar bg="#11111" data-bs-theme="light">
@@ -21,4 +21,6 @@ export default function Navbarcom ()
       </Navbar>
     );
 }
+
+export default Navbarcom;
 

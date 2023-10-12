@@ -12,7 +12,7 @@ import card4 from './9507.jpg';
 
 
 
-export default function Details ()
+function Details ()
 {
 
     return (
@@ -94,4 +94,7 @@ export default function Details ()
       </div>
     );
   }
+
+
+  export default Details;
 

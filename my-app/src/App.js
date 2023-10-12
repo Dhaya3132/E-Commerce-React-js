@@ -4,13 +4,6 @@ import Navbarcom from './Components/Navbarcom';
 import logo from './12133-removebg-preview 1.png';
 import Products from './Components/Products';
 import Details from './Components/Details';
-import {
-  Routes,
-  Route
-} from "react-router-dom";
-
-import Shop from './Components/Shop';
-
 
 function App() {
 
@@ -18,11 +11,11 @@ function App() {
 
 <div className="App">
       <Navbarcom />
-          <div className="box1">
-            <div className="box">
-               <img src={logo} className="App-logo" alt="logo" />
-            </div>
+        <div className="box1">
+          <div className="box">
+            <img src={logo} className="App-logo" alt="logo" />
           </div>
+        </div>
 
   <div className="content">
     <p className="text1">Furniture for a Better EveryDay Life</p>
@@ -38,9 +31,6 @@ function App() {
   <Details />
 
 
-  <Routes>
-        <Route path="/Shop/" element={<Shop />} />
-  </Routes>
 
   </div>
   
