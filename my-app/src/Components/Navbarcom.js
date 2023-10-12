@@ -1,12 +1,12 @@
-import React, { Component } from 'react'
+import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import './Navbarcom.css';
 
 
-export default class Navbarcom extends Component {
-  render() {
+export default function Navbarcom ()
+{
     return (
         <Navbar bg="#11111" data-bs-theme="light">
         <Container className="nav-section">
@@ -19,10 +19,6 @@ export default class Navbarcom extends Component {
           </Nav>
         </Container>
       </Navbar>
-
-
-
-
-    )
-  }
+    );
 }
+

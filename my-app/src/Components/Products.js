@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 import logo1 from './product1.png';
 import logo2 from './Product2.png';
 import logo3 from './Product3.png';
 
 import './Products.css';
 
-export default class Products extends Component {
-  render() {
+export default function Products()
+{
     return (
 
     <div className="outer-box">
@@ -21,5 +21,4 @@ export default class Products extends Component {
       </div>
     </div> 
     );
-  }
 }

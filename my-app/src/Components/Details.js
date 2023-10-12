@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import './Details.css';
@@ -9,9 +9,13 @@ import card4 from './9507.jpg';
 
 
 
-export default class Details extends Component {
-  render() {
-    return (   
+
+
+
+export default function Details ()
+{
+
+    return (
       <div>      
         <p className='Text1'>Explore products</p>
         <div className="container1">
@@ -26,7 +30,6 @@ export default class Details extends Component {
                              Some quick example text to build on the card title and make up the bulk of the card's content.
                            </Card.Text>
                            <div className="dons">
-                            
                            <Button variant="primary" className='but'>Buy now</Button>
                            </div>
                      </Card.Body>
@@ -89,6 +92,6 @@ export default class Details extends Component {
             </div>
         </div>
       </div>
-    )
+    );
   }
-}
+
