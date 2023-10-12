@@ -8,6 +8,7 @@ import './Navbarcom.css';
 function Navbarcom ()
 {
     return (
+      <div>
         <Navbar bg="#11111" data-bs-theme="light">
         <Container className="nav-section">
           <Navbar.Brand href="#home" className="title">Furnitura</Navbar.Brand>
@@ -19,6 +20,7 @@ function Navbarcom ()
           </Nav>
         </Container>
       </Navbar>
+      </div>
     );
 }
 

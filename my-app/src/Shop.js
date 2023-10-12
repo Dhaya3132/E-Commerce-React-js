@@ -3,7 +3,9 @@ import React from "react";
 function Shop()
 {
     return (
-        <p>DHAYA</p>
+        <div>
+            <h1>DHaya</h1>
+        </div>
         )
 }
 

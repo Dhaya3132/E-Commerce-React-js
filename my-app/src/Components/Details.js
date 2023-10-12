@@ -7,13 +7,15 @@ import card2 from './Product2.png';
 import card3 from './Product3.png';
 import card4 from './9507.jpg';
 
-
+import {useNavigate} from "react-router-dom";
 
 
 
 
 function Details ()
 {
+
+  const navigate = useNavigate();
 
     return (
       <div>      
@@ -30,7 +32,7 @@ function Details ()
                              Some quick example text to build on the card title and make up the bulk of the card's content.
                            </Card.Text>
                            <div className="dons">
-                           <Button variant="primary" className='but'>Buy now</Button>
+                           <Button variant="primary" className='but' onClick={()=> navigate('/Shop')}>Buy Now</Button>
                            </div>
                      </Card.Body>
                  </Card>
